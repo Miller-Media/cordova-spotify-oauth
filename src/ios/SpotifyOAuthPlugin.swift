@@ -12,6 +12,7 @@ extension URL {
     private var currentCommand: CDVInvokedUrlCommand?
     private var currentNsObserver: AnyObject?
     
+    @objc(getCode:)
     func getCode(_ command: CDVInvokedUrlCommand) {
         let auth = SPTAuth.defaultInstance()!
         
