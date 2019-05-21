@@ -3,7 +3,10 @@
   "version": "0.1.11",
   "description": "Cordova plugin for authenticating with Spotify",
   "main": "www/build/spotify-oauth.min.js",
-  "repository": "https://github.com/Festify/cordova-spotify-oauth.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Festify/cordova-spotify-oauth.git"
+  },
   "author": "Festify Dev Team <mail+git@festify.rocks>",
   "contributors": [
     "Moritz Gunz <moritz.gunz@gmail.com>",
@@ -11,10 +14,6 @@
     "Marcus Weiner <melodie124@gmail.com>"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Festify/cordova-spotify-oauth.git"
-  },
   "engines": {
     "cordovaDependencies": {
       "0.1.0": {
