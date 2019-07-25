@@ -28,6 +28,7 @@
 
     <platform name="ios">
         <hook type="before_plugin_install" src="install-ios.sh"/>
+        <hook type="after_plugin_install" src="scripts/iosAddBridgingHeader.js" />
 
         <config-file target="config.xml" parent="/*">
             <feature name="SpotifyOAuth">
