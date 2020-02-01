@@ -14,7 +14,7 @@ extension URL {
     
     @objc(getCode:)
     func getCode(_ command: CDVInvokedUrlCommand) {
-        let auth = SPTAuth.defaultInstance()!
+        let auth = SPTAuth.defaultInstance()
         
         auth.clientID = command.argument(at: 0) as! String
         auth.redirectURL = URL(string: command.argument(at: 1) as! String)
